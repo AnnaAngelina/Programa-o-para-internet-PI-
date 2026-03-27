@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f6f5f2;  
+    font-family: 'Inter', system-ui;
+    color: #1e1e1e;
+}
+
+.container {
+    width: 100%;
+    background: #ffffff;
+    padding: 4rem;
+}
+
+.container > .historia{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-titulo{
+    font-family: 'Playfair Display',serif;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+.header{
+    background:#f2ede5;
+    border-bottom:1px solid #e5dfd6;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+}
+
+.nav-left a{
+    margin-right:25px;
+    font-size:13px;
+    letter-spacing:1px;
+    text-decoration:none;
+    color:#333;
+}
+
+.logo{
+    font-family:'Playfair Display',serif;
+    font-size:28px;
+    letter-spacing:2px;
+    margin-right: 25rem;
+}
+
+.logo > a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-right {
+    display:flex;
+}
+
+.badge > span {
+    color: black;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #1a1a1a;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+
+.hash-brand {
+    display: inline-block;
+    color: #2b2b2b;
+}
+
+.spaced-story {
+    font-size: 0.9rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #6b6a68;
+    margin-top: 0.25rem;
+    margin-bottom: 2rem;
+    font-weight: 450;
+    word-break: keep-all;
+    white-space: normal;
+}
+
+.spaced-story span {
+    letter-spacing: normal;
+}
+
+.descricao-historia {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #2f2e2c;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    max-width: 85%;
+    text-align: center;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 0.5rem;
+}
+
+.feature-card {
+    border-radius: 24px;
+    padding: 1.75rem 1.5rem;
+    border: 1px solid #f0ede8;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.01);
+}
+
+.feature-card > p, .feature-card > h3{
+    text-align: center;
+}
+
+.feature-card h3 {
+    font-family:'Playfair Display',serif;
+    font-size: 1.5rem;
+    font-weight: 540;
+    margin-bottom: 0.75rem;
+    color: #262421;
+}
+
+.hero {
+    height:90vh;
+    background:url('https://images.unsplash.com/photo-1520975916090-3105956dac38') center/cover;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.overlay {
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.25);
+}
+
+.hero-text{
+    position:relative;
+    color:#fff;
+    text-align:center;
+}
+
+.collection{
+    letter-spacing:3px;
+    font-size:12px;
+}
+
+.hero h1{
+    font-family:'Playfair Display',serif;
+    font-size:70px;
+    margin:20px 0;
+}
+
+.btn-outline{
+    border:1px solid #fff;
+    background:none;
+    color:#fff;
+    padding:12px 30px;
+    cursor:pointer;
+}
+
+.products{
+    padding:80px 60px;
+    text-align:center;
+}
+
+.section-sub{
+    letter-spacing:3px;
+    font-size:12px;
+    color:#777;
+}
+
+.products h2{
+    font-family:'Playfair Display',serif;
+    font-size:36px;
+    margin:10px 0 40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:40px;
+}
+
+.card{
+    text-align:left;
+    position:relative;
+}
+
+.card img{
+    width:100%;
+}
+
+.card p{
+    margin-top:10px;
+}
+
+.card span{
+    color:#666;
+}
+
+.tag{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background:#000;
+    color:#fff;
+    font-size:11px;
+    padding:5px 10px;
+}
+
+.tag.dark{
+    background:#111;
+}
+
+.footer{
+    background:#f2ede5;
+    padding:60px;
+    margin-top:60px;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:40px;
+}
+
+.footer h4{
+    margin-bottom:10px;
+}
+
+.footer a{
+    display:block;
+    margin:5px 0;
+    color:#555;
+}
+
+.copyright{
+    text-align:center;
+    margin-top:40px;
+    font-size:13px;
+    color:#777;
+}
