@@ -86,3 +86,17 @@ Importamos -> ``from django.shortcuts import render``
 def index(request):
     return render(request, 'caminho do arquivo index.html')
 ````
+
+# APPS 
+
+Separar funcionalidades, organizar o código, geralmente com base em cada segmentação do site
+
+``
+python manage.py startapp nome_app
+``
+
+No app criamos o urls.py e em urls.py do diretório do projeto adicionamos o include:
+
+```
+from django.urls import include
+```
