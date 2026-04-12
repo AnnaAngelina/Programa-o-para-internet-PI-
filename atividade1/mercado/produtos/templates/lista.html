@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produtos</title>
+
+</head>
+
+<body>
+
+  {% block content %}
+
+  <div class="container-menor">
+
+    <h1>Produtos do Supermercado</h1>
+
+    <div class="product-grid">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce" />
+        <h3>Maçã</h3>
+        <p class="price">R$ 5,99/kg</p>
+        <button class="btn">Adicionar</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1587049352851-8d4e89133924" />
+        <h3>Mel</h3>
+        <p class="price">R$ 18,90</p>
+        <button class="btn">Adicionar</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1582515073490-dc3e9b09fef3" />
+        <h3>Brócolis</h3>
+        <p class="price">R$ 7,50</p>
+        <button class="btn">Adicionar</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2" />
+        <h3>Nozes</h3>
+        <p class="price">R$ 32,00</p>
+        <button class="btn">Adicionar</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1574226516831-e1dff420e8f8" />
+        <h3>Abacate</h3>
+        <p class="price">R$ 6,80</p>
+        <button class="btn">Adicionar</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1604908176997-431c55fdb1a0" />
+        <h3>Arroz</h3>
+        <p class="price">R$ 22,90</p>
+        <button class="btn">Adicionar</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1606756790138-261d2b21cd52" />
+        <h3>Leite</h3>
+        <p class="price">R$ 4,99</p>
+        <button class="btn">Adicionar</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1585238342028-4e5a33f0a3df" />
+        <h3>Pão</h3>
+        <p class="price">R$ 8,50</p>
+        <button class="btn">Adicionar</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  {% endblock content %}
+
+</body>
+</html>

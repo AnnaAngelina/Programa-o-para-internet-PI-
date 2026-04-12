@@ -1,0 +1,55 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Organic</title>
+
+  <link rel="stylesheet" href="{% static '/css/style.css' %}">
+  <!-- Tipografia mais fiel -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_bag" />
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+        <h1>ORGANIC</h1>
+        <nav>
+            <a href="{% url 'index' %}">Home</a>
+            <a href="">Shop</a>
+            <a href="">About</a>
+            <a href="{% url 'lista_produtos' %}">List Products</a>
+        </nav>
+        <span class="material-symbols-outlined">shopping_bag</span>
+        </header>
+
+        {% block content %}
+        
+        {% endblock content %}
+
+        <footer>
+        <div>
+            <h4>About Us</h4>
+            <p>Dolente omnes idub cumet laboris em ipomdun o hancem congue.</p>
+        </div>
+
+        <div>
+            <h4>Quick Lists</h4>
+            <p>Theat<br>Uam<br>T'iam</p>
+        </div>
+
+        <div>
+            <h4>Follow Us</h4>
+            <p>Facebook<br>Twitter<br>Instagram</p>
+        </div>
+        </footer>
+    
+    </div>
+
+</body>
+</html>
