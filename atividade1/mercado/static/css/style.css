@@ -143,7 +143,7 @@ h1 {
     align-items:center;
     padding:70px 50px;
     background:#dbe6d3;
-    gap:40px;
+    gap: 3px;
 }
 
 .hero-text { flex:1; }
@@ -180,7 +180,7 @@ h1 {
 }
 
 .hero img {
-    width:520px;
+    width:700px;
     border-radius:14px;
 }
 
@@ -255,7 +255,10 @@ h1 {
 }
 
 .banner-box img {
-    width:120px;
+    width:200px;
+    height:150px;
+    object-fit:cover;
+    border-radius: 10px;
 }
 
 
